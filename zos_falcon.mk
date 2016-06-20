@@ -1,7 +1,7 @@
 $(call inherit-product, device/motorola/falcon/full_falcon.mk)
 
 # Inherit some common CM stuff.
-$(call inherit-product, vendor/zos/commom.mk)
+$(call inherit-product, vendor/zos/common.mk)
 
 PRODUCT_RELEASE_NAME := MOTO G 2013
 PRODUCT_NAME := zos_falcon
